@@ -36,15 +36,15 @@
     </engines>
 
     <js-module src="www/CameraConstants.js" name="Camera">
-        <clobbers target="cordova.plugins.camera.Camera" />
+        <clobbers target="cordova.plugins.Camera" />
     </js-module>
 
     <js-module src="www/CameraPopoverOptions.js" name="CameraPopoverOptions">
-        <clobbers target="cordova.plugins.camera.CameraPopoverOptions" />
+        <clobbers target="cordova.plugins.CameraPopoverOptions" />
     </js-module>
 
     <js-module src="www/Camera.js" name="camera">
-        <clobbers target="cordova.plugins.camera.camera" />
+        <clobbers target="cordova.plugins.camera" />
     </js-module>
 
     <!-- android -->
@@ -98,7 +98,7 @@
         <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
 
         <js-module src="www/CameraPopoverHandle.js" name="CameraPopoverHandle">
-            <clobbers target="cordova.plugins.camera.CameraPopoverHandle" />
+            <clobbers target="cordova.plugins.CameraPopoverHandle" />
           </js-module>
       </platform>
 
@@ -112,7 +112,7 @@
          </config-file>
 
          <js-module src="www/ios/CameraPopoverHandle.js" name="CameraPopoverHandle">
-            <clobbers target="cordova.plugins.camera.CameraPopoverHandle" />
+            <clobbers target="cordova.plugins.CameraPopoverHandle" />
          </js-module>
 
          <header-file src="src/ios/UIImage+CropScaleOrientation.h" />
@@ -151,7 +151,7 @@
             <DeviceCapability Name="webcam" />
         </config-file>
         <js-module src="www/CameraPopoverHandle.js" name="CameraPopoverHandle">
-            <clobbers target="cordova.plugins.camera.CameraPopoverHandle" />
+            <clobbers target="cordova.plugins.CameraPopoverHandle" />
         </js-module>
         <js-module src="src/windows/CameraProxy.js" name="CameraProxy">
             <runs />
@@ -167,7 +167,7 @@
         </config-file>
 
         <js-module src="www/CameraPopoverHandle.js" name="CameraPopoverHandle">
-            <clobbers target="cordova.plugins.camera.CameraPopoverHandle" />
+            <clobbers target="cordova.plugins.CameraPopoverHandle" />
         </js-module>
 
         <header-file src="src/osx/CDVCamera.h" />
